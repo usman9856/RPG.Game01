@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game01</title>
+    <script src="js/GameManger.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Enemy.js"></script>
+    <link rel="stylesheet" href="Game01.css">
+</head>
+<body>
+
+    <div class = "header">  
+        <p>Unique RPG game ever made</p>
+        <h2>Choose Your Character</h2>
+    </div>
+    <div class = "interface"> 
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="Avatar-Player/Warrior.png" alt="Warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Warriors have higher health and stamina,however their 
+                    strength also makes them slower and clumsier.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Berserk')">
+            <img src="Avatar-Player/Berserk.png" alt="Berserk">
+            <div>
+                <h3>Berserk</h3>
+                <p>Berserk are fast and have high stamina and speed which makes up for their lack in strength and health</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="Avatar-Player/Mage.png" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Mages area glass canons which puts all their effort into spells. this means they stack on everything else</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="Avatar-Player/Hunter.png" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Hunters are well rounded fighters that focus on evening out hteir skills. No strengths or weaknesses</p>
+            </div>
+        </a> 
+
+
+    </div>
+    <div class = "actions"> </div>
+    <div class = "arena"></div>
+    <div class = "enemy"> </div>
+ 
+</body>
+
+</html>
